@@ -1119,5 +1119,4 @@ def whois_entry_factory(typename,apnic_entry=None):
         return WhoisRoute6Entry(apnic_entry=apnic_entry)
     else:
         raise NotImplementedError(typename + ' not implemented in whois_entry_factory')
-        #return WhoisEntry(obj_id,apnic_entry)
 
